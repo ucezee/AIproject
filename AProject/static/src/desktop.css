@@ -1,0 +1,48 @@
+@media screen and (min-width: 601px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 200px;
+    }
+    .container .page_header {
+         justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .page_header {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: #d61f1f;
+        margin-bottom: 20px;
+    }
+    
+    
+    .heading {
+        font-size: 20px;
+        color: #d61f1f;
+    }
+    
+    .translation {
+        height: 500px;
+        font-size: 16px;
+        color: #000;
+    }
+    #input {
+        height: 100px;
+        width: 600px;
+    }
+    #input, .label {
+        height: 100px;
+        width: 600px;
+    }    
+}

@@ -7,10 +7,28 @@
     <title>Flowbite Flask</title>
     <link href="../static/src/input.css" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="../static/src/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="../static/src/mobile.css" />
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline text-red-500">
-        Hello world!
-      </h1>
+    <div class="container">
+        <div class="page_header">
+            <h1 class="heading">
+                Healthcare Translation Web App 
+              </h1>
+
+        </div>
+        <div class="translation">
+            <div id="input" class="input">
+                <label for="input" class="label">Enter text to translate</label>
+                <input type="text" id="input" class="input" placeholder="Enter text to translate">
+                <button id="translate" class="button">Translate</button>
+            </div>
+            <div id="output" class="output">
+                <p id="outputText" class="outputText"></p>
+
+            </div>
+        </div>
+    
 </body>
 </html>
