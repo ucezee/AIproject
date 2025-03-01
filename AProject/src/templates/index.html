@@ -20,25 +20,36 @@
         </div>
         <div class="translation">
             <div id="input" class="input">
-                <label for="input" class="label">Enter text to translate</label>
+                
                 <input type="text" id="input" class="input" placeholder="Enter text to translate">
                 <button 
                 id="translateButton" 
-                class="button"
-                
-                >
-                
+                class="button">
                 Translate
-
-
                 </button>
             </div>
-            <div id="output" class="output">
-                <p id="outputText" class="outputText"></p>
-
+            <div class="svg">
+                <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="10" y1="50" x2="90" y2="50" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+                    <defs>
+                      <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                              refX="0" refY="3.5" orient="auto">
+                        <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+                      </marker>
+                    </defs>
+                  </svg>
             </div>
+        
+            <div id="input" class="input">
+                <label for="input" class="label"></label>
+                <input type="text" id="output" class="output" placeholder="">
+                
+            </div>
+     
         </div>
-    
+      
+    </div>
+
 </body>
 
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>

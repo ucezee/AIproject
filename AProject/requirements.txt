@@ -1,0 +1,4 @@
+flask
+flask-dotenv
+python-dotenv
+gunicon

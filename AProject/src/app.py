@@ -38,5 +38,6 @@ def translate():
 	conn.close()
 	return render_template("translate.html", text=text, translations=translations)
 
+
 if __name__ == '__main__':
 	app.run( "0.0.0.0", debug=True)

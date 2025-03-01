@@ -4,7 +4,8 @@ const handlesubmit = (e) => {
 } 
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.getElementById('translateButton');
-    button.addEventListener('click', function() {
+    button.addEventListener('click', function () {
         alert('Button was clicked!');
+        
     });
 });
