@@ -2,7 +2,7 @@ from flask import Flask, render_template, current_app, request
 import os
 from flask_dotenv import DotEnv
 from dotenv import load_dotenv
-from model.db import get_db_connection
+from .model.db import get_db_connection
 
 environment = os.getenv("Flask_Env", "development")
 app = Flask(__name__)

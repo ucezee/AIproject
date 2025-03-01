@@ -22,7 +22,16 @@
             <div id="input" class="input">
                 <label for="input" class="label">Enter text to translate</label>
                 <input type="text" id="input" class="input" placeholder="Enter text to translate">
-                <button id="translate" class="button">Translate</button>
+                <button 
+                id="translateButton" 
+                class="button"
+                
+                >
+                
+                Translate
+
+
+                </button>
             </div>
             <div id="output" class="output">
                 <p id="outputText" class="outputText"></p>
@@ -31,4 +40,7 @@
         </div>
     
 </body>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
 </html>
